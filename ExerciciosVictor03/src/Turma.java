@@ -11,11 +11,9 @@ public class Turma {
         this.estudantes = new ArrayList<>();
     }
 
-
     public void adicionarEstudante(Estudante estudante) {
         estudantes.add(estudante);
     }
-
 
     public void removerEstudante(Estudante estudante) {
         estudantes.remove(estudante);

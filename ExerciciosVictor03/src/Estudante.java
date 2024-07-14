@@ -7,7 +7,7 @@ public class Estudante {
     public Estudante(String nome, int id) {
         this.nome = nome;
         this.id = id;
-    }
+    };
 
     // Getters
     public String getNome() {
